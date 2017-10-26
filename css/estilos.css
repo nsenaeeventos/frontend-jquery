@@ -1,0 +1,10 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+header{
+	padding:5% 0px;
+	background-image: url("http://images.terra.com/2015/05/20/corinthians.png");
+    background-size: 100%;
+    background-position: 0px -200px;
+} 
