@@ -2,9 +2,56 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>Uso de JQuery</title>
+
+	<script type="text/javascript" src="../js/jquery.js">
+		
+	</script>
+
+	<script type="text/javascript">
+		
+/*Para usar a biblioteca de jquery, é necessario usar um caracter especial para fazer a chamada($) ou JQuery*/
+$(document).ready(function(){
+   $('#principal').append('<p>Texto Novo</p>');
+   $('#primeiro').click(function(){
+   	 $('div').append('<h2>Estou aqui!</h2>');
+   });
+
+
+});
+
+
+
+
+	</script>
+
 </head>
+
 <body>
-	
+
+<header>
+
+     <h1>Página com JQuery</h1>
+
+     </header>
+<main>
+
+    <section id="principal">
+    	<div>
+    	<button id="primeiro">primeiro</button><br>
+
+    		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore totam sapiente sequi, sunt veniam ut, cum, nihil, harum nulla quod deleniti! Cum doloremque perspiciatis nobis adipisci reprehenderit, ex modi libero.</div>
+    		<div>Sequi, obcaecati, incidunt, laborum fugit officiis quod consequatur nihil sit alias excepturi quos eos, aliquam voluptatum laudantium voluptates quidem aliquid dignissimos quo? Architecto repellendus, ea, quaerat libero cupiditate quisquam dolorum.</div>
+    		<div>Asperiores placeat est perferendis rem itaque, totam quod beatae iste! Earum voluptas perspiciatis consectetur enim repellendus ipsam rem, sed nesciunt voluptates. A, rerum ipsam. Aspernatur facilis expedita voluptate repellendus eligendi!</div>
+    	</div>
+    	<div>
+    		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium nobis, laborum quod voluptatibus incidunt, reprehenderit quos eaque iusto necessitatibus, cumque voluptatem illo impedit rem animi voluptate beatae illum libero maxime!</div>
+    		<div>Soluta deserunt officia eaque voluptatibus quia fuga, sint pariatur facilis repellendus ipsum enim sapiente distinctio possimus modi sequi cupiditate rem laboriosam nihil. Neque consequatur veniam explicabo at aliquam, expedita recusandae!</div>
+    		<div>Placeat repellat est nesciunt reprehenderit, adipisci iusto tempore voluptatem, eos dolorem ut illo consectetur molestias dolor ipsum! Quae, reiciendis! Et deserunt, quidem ex debitis, iste quas eveniet error veritatis iusto.</div>
+    	</div>
+    </section>
+
+
+</main>	
 </body>
 </html>
