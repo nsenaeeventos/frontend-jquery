@@ -1,10 +1,12 @@
 *{
 	margin:0px;
 	padding:0px;
-}
-header{
+} 
+
+header{ 
+	
 	padding:5% 0px;
-	background-image: url("http://images.terra.com/2015/05/20/corinthians.png");
+	background-image:url("http://s2.glbimg.com/VWxv_1HtBJLoZWdh-eFgmL6nbvQ=/428x160/filters:max_age(3600)/s01.video.glbimg.com/deo/vi/08/25/5982508");
     background-size: 100%;
     background-position: 0px -200px;
 } 
